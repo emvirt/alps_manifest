@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="alps"
+           fetch="." />
+  <default revision="master"
+           remote="alps" />
+
+  <project path="." name="alps_root" revision="master" />
+  <project path="kernel/secure/linux-3.0.35" name="alps_linux" revision="master/secure" />
+  <project path="kernel/secure/monitor" name="alps_monitor" revision="master" />
+  <project path="kernel/secure/u-boot-secure" name="alps_u-boot" revision="master/secure" />
+  <project path="kernel/normal/linux-3.0.35" name="alps_linux" revision="master/normal" />
+  <project path="kernel/normal/u-boot-normal" name="alps_u-boot" revision="master/normal" />
+
+</manifest>
+
+
+
+
+
+
+
+
